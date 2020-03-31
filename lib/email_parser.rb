@@ -20,7 +20,7 @@ class EmailAddressParser
       arr.push(email.strip)
     end
     
-    arr
+    arr.uniq
   end
   
 end

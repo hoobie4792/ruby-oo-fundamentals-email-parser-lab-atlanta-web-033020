@@ -13,10 +13,7 @@ class EmailAddressParser
   def parse
     arr = @email_addresses.split(',')
     
-    arr.each do |email|
-      email.strip
-    end
-    arr
+    binding.pry
   end
   
 end

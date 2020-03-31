@@ -11,7 +11,12 @@ class EmailAddressParser
   end
   
   def parse
-    @email_addresses.split(',')
+    arr = @email_addresses.split(',')
+    
+    arr.each do |email|
+      
+    end
+    arr
   end
   
 end

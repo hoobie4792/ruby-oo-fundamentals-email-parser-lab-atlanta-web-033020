@@ -14,7 +14,7 @@ class EmailAddressParser
     arr = @email_addresses.split(',')
     
     arr.each do |email|
-      
+      email.strip
     end
     arr
   end

@@ -19,6 +19,8 @@ class EmailAddressParser
     temp_arr.each do |email|
       arr.push(email.strip)
     end
+    
+    arr
   end
   
 end
